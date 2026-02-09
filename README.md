@@ -1,169 +1,126 @@
-# 🌀 Vortex Downloader
-### *Premium 4K Video & Audio Downloader*
+<div align="center">
 
-![Vortex Banner](https://img.shields.io/badge/Vortex-Downloader-cyan?style=for-the-badge&logo=youtube&logoColor=white) 
-![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
+# 🌀 VORTEX DOWNLOADER
+### *The Ultimate 4K Video & Audio Experience*
 
-**Vortex Downloader** is a next-generation media tool built for speed and quality. It combines a stunning **Cyberpunk/Glassmorphism UI** with a powerful backend capable of **4K/8K Video Downloads**, **320kbps Audio Extraction**, and **Batch Playlist Processing**.
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
----
+<br />
 
-## ✨ Key Features
+**[ 🚀 LAUNCH APP ](#-quick-start-windows)**
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+**[ 📖 READ DOCS ](#-usage-guide)**
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+**[ 🐛 REPORT BUG ](https://github.com/Jayasakthi-07/Youtube-Downloader/issues)**
 
-| Feature | Description |
-| :--- | :--- |
-| **🎥 Extreme Quality** | Download videos in crystal clear **4K, 8K, and 60FPS**. |
-| **🎵 Hi-Fi Audio** | Auto-installs **320kbps MP3s** for the best listening experience. |
-| **📑 Playlist Support** | Paste a playlist URL to browse and bulk download tracks. |
-| **🎨 Modern UI** | A beautiful "Vortex" interface with dynamic glowing backgrounds. |
-| **⚡ Real-Time** | Live progress bars and speed tracking via WebSockets. |
-| **📱 Mobile Ready** | Use it on your **Phone or Tablet** via your local Wi-Fi. |
+<br />
 
----
+> *Experience the future of media downloading. Blazing speeds, 8K support, and a stunning Glassmorphism UI.*
 
-## 🛠️ Tech Stack
-
-*   **Frontend**: [Next.js 15](https://nextjs.org/) • TypeScript • TailwindCSS • Shadcn UI
-*   **Backend**: [FastAPI](https://fastapi.tiangolo.com/) • Python 3.10+ • `yt-dlp`
-*   **Core**: FFmpeg (Media Processing)
+</div>
 
 ---
 
-## 📋 Prerequisites
+## ✨ Why Choose Vortex?
 
-Before you start, you need three things installed looking like this:
+| 🚀 Extreme Performance | 🎨 Stunning Interface | 🎧 Audiophile Quality |
+| :--- | :--- | :--- |
+| Download **4K, 8K, & 60FPS** videos instantly with our optimized backend engine. | A modern, responsive **Cyberpunk/Glass UI** that looks amazing on any device. | Extract crystal clear **320kbps MP3s** with automatic metadata tagging. |
 
-1.  **Python 3.10+**: [Download Python](https://www.python.org/downloads/)
-    *   ⚠️ **IMPORTANT:** During installation, check the box **"Add Python to PATH"**.
-2.  **Node.js 18+**: [Download Node.js](https://nodejs.org/)
-3.  **FFmpeg**: (See the detailed guide below)
+<details>
+<summary><b>🔥 Click to see more features</b></summary>
 
----
+- **Batch Downloads**: Paste a playlist link and download entire albums/series at once.
+- **Real-Time Progress**: Watch the download bar fill up live via WebSockets.
+- **Mobile Friendly**: Access the app from your phone on the same Wi-Fi network.
+- **Auto-Retry**: Smart networking handles temporary connection drops.
+- **Format Selection**: Choose between MP4, WebM, MP3, M4A, and more.
 
-## 🛑 How to Install FFmpeg (Crucial Step)
-
-**FFmpeg** is the engine that merges video and audio. Without it, you cannot download high-quality 1080p/4K videos.
-
-### 🪟 For Windows Users (Beginner Friendly)
-
-1.  **Download**: Go to [gyan.dev/ffmpeg/builds](https://www.gyan.dev/ffmpeg/builds/) and download `ffmpeg-git-full.7z`.
-2.  **Extract**: Extract the folder (using 7-Zip or WinRAR). Rename the extracted folder to just `ffmpeg`.
-3.  **Move**: Move the `ffmpeg` folder to your C: drive directly (e.g., `C:\ffmpeg`).
-4.  **Add to PATH**:
-    *   Press `Win + S` and search for **"Edit the system environment variables"**.
-    *   Click **Environment Variables** button.
-    *   In the **System variables** section (bottom box), find and select **Path**, then click **Edit**.
-    *   Click **New** and type: `C:\ffmpeg\bin`
-    *   Click **OK** on all windows to save.
-5.  **Verify**: Open a new Command Prompt (CMD) and type `ffmpeg -version`. If you see version info, you did it! 🎉
-
-### 🍎 For Mac Users
-```bash
-brew install ffmpeg
-```
-
-### 🐧 For Linux Users
-```bash
-sudo apt update && sudo apt install ffmpeg
-```
+</details>
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Quick Start (Windows)
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Jayasakthi-07/Youtube-Downloader.git
-cd Youtube-Downloader
-```
+We've automated everything for you. Get up and running in **seconds**.
 
-### 2. Backend Setup
-Typically takes 2 minutes.
+### 1️⃣ Prerequisite Check
+Ensure you have these installed:
+- [**Python 3.10+**](https://www.python.org/downloads/) (⚠️ Check **"Add into PATH"** during install)
+- [**Node.js 18+**](https://nodejs.org/)
+- **FFmpeg** (See the [Setup Guide](#-ffmpeg-setup-critical) below)
 
-```bash
-cd backend
-# Create virtual environment
-python -m venv venv
-# Activate it (Windows)
-.\venv\Scripts\activate
-# Install requirements
-pip install -r requirements.txt
-```
+### 2️⃣ One-Click Setup
+Double-click the **`setup_windows.bat`** file.
+> ☕ Grab a coffee while it installs dependencies for you.
 
-### 3. Frontend Setup
-Typically takes 2 minutes.
-
-```bash
-cd frontend
-npm install
-```
+### 3️⃣ Launch
+Double-click the **`run_app.bat`** file.
+> 🌐 The app will automatically open in your browser!
 
 ---
 
-## ⚡ How to Run
+## �️ FFmpeg Setup (Critical)
 
-Open **two separate terminals** (Command Prompts) to run the app.
+**Vortex needs FFmpeg** to merge high-quality video and audio streams. Without it, downloads may fail or have no sound.
 
-### Terminal 1: The Backend 🧠
-```bash
-cd backend
-.\venv\Scripts\activate
-# Start Server (Accessible on Network)
-python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-```
-*You should see: `Uvicorn running on http://0.0.0.0:8000`*
-
-### Terminal 2: The Frontend 🎨
-```bash
-cd frontend
-# Start UI (Accessible on Network)
-npm run dev
-```
-*You should see: `Ready in 3000`*
+> [!IMPORTANT]
+> **Windows Users:**
+> 1. Download `ffmpeg-git-full.7z` from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
+> 2. Extract and rename the folder to `ffmpeg`.
+> 3. Move it to `C:\ffmpeg`.
+> 4. Add `C:\ffmpeg\bin` to your **System Environment Path**.
+> 5. **Restart your PC** or Terminal to apply changes.
 
 ---
 
-## 📱 How to Use on Mobile (Wi-Fi)
+## � Mobile Access (Wi-Fi)
 
 Want to download directly to your phone?
 
-1.  Find your PC's **IPv4 Address**:
-    *   Open CMD and type `ipconfig`.
-    *   Look for `IPv4 Address` (e.g., `192.168.1.5`).
-2.  Open your Phone's Browser (Chrome/Safari).
-3.  Type: `http://192.168.1.5:3000` (Replace with your IP).
-4.  That's it! The app works perfectly on mobile.
+1. Ensure your PC and Phone are on the **same Wi-Fi**.
+2. Open Command Prompt (`Win+R` -> `cmd`) and type `ipconfig`.
+3. Note your **IPv4 Address** (e.g., `192.168.1.5`).
+4. On your phone, go to: `http://192.168.1.5:3000`
 
 ---
 
-## 🐳 Docker Support (One-Click Run)
+## 🔧 Troubleshooting
 
-If you have Docker installed, you can skip all the setup steps!
+<details>
+<summary><b>❌ "FFmpeg not found" Error</b></summary>
 
-1.  **Run**:
-    ```bash
-    docker-compose up --build
-    ```
-2.  **Open**: Go to `http://localhost:3000`.
+- Ensure you installed FFmpeg correctly as per the guide above.
+- Verify by typing `ffmpeg -version` in a new terminal.
+- Restart the release `run_app.bat` script.
+
+</details>
+
+<details>
+<summary><b>❌ "Port already in use"</b></summary>
+ 
+- You might have another instance running properly. 
+- Close all terminal windows and try again.
+
+</details>
+
+<details>
+<summary><b>❌ Download Stuck at 0% / Network Error</b></summary>
+
+- Check if the **Backend Terminal** (the black window) is running and shows no errors.
+- Ensure your internet connection is stable.
+
+</details>
 
 ---
 
-## 🧩 Usage Guide
+<div align="center">
 
-1.  **Paste URL**: Copy a link from YouTube (Video or Playlist).
-2.  **Analyze**: Paste it in the Vortex search bar.
-3.  **Choose Quality**:
-    *   **Video Tab**: Select 4K, 1080p, or 720p.
-    *   **Audio Tab**: Select "Ultra High (320kbps)".
-4.  **Download**: Click the button and watch the magic happen.
+Made with ❤️ by **Jayasakthi-07**
+<br />
+<sub><i>(Educational Purpose Only. Please respect copyright laws.)</i></sub>
 
----
-
-## ⚠️ Disclaimer
-*This project is for educational purposes. Please respect YouTube's Terms of Service and content creators' rights. Do not download copyrighted materials without permission.*
-
----
-
-<p align="center">
-  Made with ❤️ by <b>Jayasakthi-07</b>
-</p>
+</div>

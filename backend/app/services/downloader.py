@@ -167,7 +167,7 @@ class YtDlpService:
             'format': final_format,
             'outtmpl': outtmpl,
             'progress_hooks': [progress_hook],
-            'ffmpeg_location': settings.FFMPEG_PATH,
+            'ffmpeg_location': settings.ffmpeg_executable,
             'merge_output_format': 'mp4', # Force merge to MP4 container
             'quiet': True,
             'no_warnings': True,
