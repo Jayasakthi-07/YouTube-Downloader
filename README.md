@@ -68,7 +68,7 @@ Vortex is built with the latest technologies for maximum performance and maintai
 > [!TIP]
 > **New to Vortex?** Watch the **[Step-by-Step Video Tutorial](https://youtu.be/hwNWx1GTSKo?si=-hAhvPGS9mHC1Ia-)** for a complete walkthrough.
 >
->
+> [![Watch Tutorial](https://img.youtube.com/vi/hwNWx1GTSKo/0.jpg)](https://youtu.be/TKQZyhFHPZ0?si=5xTgmQ4tfPf50Vsz)
 
 We've automated everything for you. Get up and running in **seconds**.
 
