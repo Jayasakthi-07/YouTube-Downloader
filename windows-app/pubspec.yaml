@@ -1,0 +1,81 @@
+name: tubevault
+description: "TubeVault - Premium YouTube Downloader for Windows"
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Auth (OAuth 2.0 loopback / installed-app flow for Windows desktop)
+  googleapis_auth: ^1.6.0
+  url_launcher: ^6.3.1
+  flutter_secure_storage: ^9.2.4
+
+  # Filesystem / paths / pickers
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  file_picker: ^8.1.7
+
+  # Persistence
+  sqflite_common_ffi: ^2.3.4
+  shared_preferences: ^2.3.4
+
+  # Networking (engine self-update with progress)
+  dio: ^5.7.0
+
+  # Misc
+  uuid: ^4.5.3
+
+  # Desktop windowing, tray, notifications
+  window_manager: ^0.4.3
+  tray_manager: ^0.3.2
+  local_notifier: ^0.1.6
+
+  # UI / i18n
+  intl: ^0.20.1
+  cached_network_image: ^3.4.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/bin/
+    - assets/icons/
+    - config/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+    - family: JetBrains Mono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/JetBrainsMono-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/JetBrainsMono-Bold.ttf
+          weight: 700
